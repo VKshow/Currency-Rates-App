@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Currency Rate</title>
 </head>
 <body>
     
-
+    <header>
+        <h1>Exchange Rate Calculator</h1>
+        <div>
+          <span>1 USD = <span id="usd-rate"></span> UAH</span>
+          <span>1 EUR = <span id="eur-rate"></span> UAH</span>
+        </div>
+      </header>
+  
+      <div class="converter">
+        <div>
+          <label for="currency-one">Currency 1</label>
+          <input type="number" id="currency-one" placeholder="enter your value..." />
+          <select id="currency-one-type">
+            <option value="UAH">UAH</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+  
+        <div>
+          <label for="currency-two">Currency 2</label>
+          <input type="number" id="currency-two" placeholder="enter your value..."/>
+          <select id="currency-two-type">
+            <option value="USD">USD</option>
+            <option value="UAH">UAH</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+      </div>
 
     <script src="app.js"></script>
 </body>

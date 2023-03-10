@@ -1,0 +1,79 @@
+/* Set global font and background styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6c6c6;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #005bbb; /* blue */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header div {
+    margin-top: 10px;
+  }
+  
+  header span {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  header span#usd-rate {
+    color: #ffd500; /* yellow */
+  }
+  
+  header span#eur-rate {
+    color: #ffd500; /* blue */
+  }
+  
+  /* Style the converter form */
+  .converter {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .converter div {
+    margin-bottom: 10px;
+  }
+  
+  .converter label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .converter input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .converter select {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .converter input[type="number"]:focus,
+  .converter select:focus {
+    outline: none;
+    background-color: #e6e6e6;
+  }
+  
